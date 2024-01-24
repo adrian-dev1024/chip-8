@@ -13,3 +13,6 @@ edition = "2021"
     version = "0.36"
     default-features = false
     features = ["ttf", "image"]
+
+[profile.dev]
+    overflow-checks = false 
